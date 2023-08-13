@@ -1,16 +1,27 @@
 <template>
   <div id="app">
-    <carousel/>
+    <div class="row">
+      <div class="col-md-12">
+        <carousel />
+      </div>
+      <div class="col-md-12">
+        <pieChart />
+      </div>
+
+    </div>
+
   </div>
 </template>
 
 <script>
 import Carousel from './components/Carousel.vue'
+import PieChart from './components/PieChart.vue'
 
 export default {
   name: 'App',
   components: {
     Carousel,
+    PieChart
   }
 }
 </script>
