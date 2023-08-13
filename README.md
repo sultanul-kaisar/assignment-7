@@ -27,4 +27,4 @@ npm run dev
 ```sh
 npm run build
 ```
-# assignment-7-task-1
+# assignment-for-module-7
